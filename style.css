@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Nunito Sans", serif;
+}
+.section{
+    max-width: 1440px;
+    height: 1024px;
+    background-color: #202C36;  
+    margin: auto;
+}
+.section_nav{
+    max-width: 1440px;
+    height: 80px;
+    background-color: #2B3844;
+    box-shadow: 0px 2px 4px 0px #0000000E;
+}
+.section_nav ul{
+    display: flex;
+}
+.li_1{
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 32.74px; 
+    color: white;
+    padding-left: 81px;
+    padding-top: 20px;
+}
+.li_2{
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 32.74px; 
+    color: white;
+    padding-left: 941px;
+    padding-top: 20px;
+}
+.section input{
+    max-width: 580px;
+    height: 56px;
+    background-color: #2B3844;
+    border-radius: 10px;
+    box-shadow: 0px 2px 9px 0px #0000000E;
+    margin-left: 80px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px; 
+    color: white;
+    background-image: url(search.svg);
+    background-repeat: no-repeat;
+    background-position: 5% 50%;
+    margin-top: 48px;
+    padding-left: 50px;
+}
+.div_section{
+    max-width: 1280px;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.box{
+    width: 264px;
+    height: 250px;
+    border-radius: 5px;  
+}
+.box img{
+    width: 264px;
+    height: 160px; 
+}
+.box div h1{
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 26px; 
+    color: white;
+    align-items: center;
+    text-align: center;
+    padding-top: 30px;
+}
+@media (max-width: 1034px) {
+    .section{
+        width: 834px;
+    } 
+    .section_nav{
+        width: 834px;
+        height: 80px;        
+    }
+    .section input{
+        width: 768px;
+        height: 101px;  
+    }
+    .div_section{
+        justify-content: center;
+    }
+}
